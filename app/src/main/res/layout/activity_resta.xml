@@ -10,7 +10,21 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/editTextNumber"
+            android:id="@+id/editTextNumberXR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumberYR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumberTotalR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
